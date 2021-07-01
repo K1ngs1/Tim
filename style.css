@@ -46,6 +46,9 @@ h1 {
     font-weight: 300;
     font-family: 'Bebas Neue', cursive;
 }
+#hi{
+    color: black;
+}
 
 #name {
     font-size: 30px;
@@ -97,4 +100,14 @@ p {
 .links:hover{
     background-color: blueviolet
 }
+a{
+    text-decoration: none;
+}
+.article:hover{
+    color: deepskyblue;
+}
+html{
+    scroll-behavior: smooth;
+}
+
 
