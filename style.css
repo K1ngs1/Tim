@@ -4,12 +4,6 @@ body {
     text-align: center;
 }
 
-.img_1 {
-    width: 175px;
-    margin-bottom: 50px;
-    border-radius: 50%;
-}
-
 #section_1 {
     position: absolute;
     height: 400px;
@@ -46,7 +40,8 @@ h1 {
     font-weight: 300;
     font-family: 'Bebas Neue', cursive;
 }
-#hi{
+
+#hi {
     color: black;
 }
 
@@ -79,35 +74,57 @@ p {
 }
 
 .menu {
-    list-style: none;
-    font-family: sans-serif;
-    position: absolute;
-    top: 10px;
-    right: 30px;
-    cursor: pointer;
+    top:0px;
+    position: fixed;
+    margin-top: 0px;
     z-index: 10;
+    width: 100%;
+    background: white;
 }
-.links{
-    float: left;
+
+.links {
     color: aliceblue;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: fantasy;
     font-size: 20px;
+    display: inline;
 }
-.links:hover{
-    background-color: blueviolet
+
+.links:hover {
+    background-color: blueviolet;
+    font-size 25px;
+    text-decoration: underline;
 }
-a{
+
+a {
     text-decoration: none;
+    color: paleturquoise;
+    text-shadow: 3px 3px aqua;
 }
-.article:hover{
+
+.article:hover {
     color: deepskyblue;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-
-
+#writings a{
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+#contact{
+    background: lightblue;
+}
+.contact_1 a{
+    color: white;
+    text-shadow: none;
+}
+.contact_1 h3{
+    display: inline;
+}
+.img_1{
+    border-radius: 50%;
+}
